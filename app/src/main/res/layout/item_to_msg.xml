@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/turing"
+        android:src="@drawable/ic_user"/>
+
+    <TextView
+        android:layout_toLeftOf="@+id/turing"
+        android:background="@drawable/chatto_bg_normal"
+        android:text="111"
+        android:textSize="25sp"
+        android:gravity="end"
+        android:textIsSelectable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_to_msg"/>
+
+</RelativeLayout>
